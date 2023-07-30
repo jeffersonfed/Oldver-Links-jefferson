@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+html {
+    font-size: 62.5%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 600px; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: #dfe6e9;
+    color: #1b4354;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/* current time and date */
+
+.container {
+	width: 260px;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+.display-date {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.display-time {
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+p{
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/* links */
+.box {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    /* padding: 0 20px; */
+    box-sizing: border-box;
+    
+}
+.box-left {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.column {
+    position: center;
+    width: 100%;
+    float: center;
+    box-sizing: border-box;
+}
+
+/* button */
+.button,
+button, .btn {
+    
+    /* display: inline-block; */
+    /* text-decoration: none; */
+    /* height: 100%; */
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    font-size: 15px;
+    width: 280px;
+    /* font-weight: 700; */
+    /* line-height: 20px; */
+    /* padding: 15px 15px 15px 15px; */
+    letter-spacing: 0.1px;
+    /* white-space: wrap; */
+    /* outline: none; */
+    border-radius: 8px;
+    /* cursor: pointer; */
+}     
+/* button:hover,
+.btn:focus {
+    color: #212121;
+    border-color: #888;
+    outline: #000000 solid 3px
+}
+.btn.btn-primary {
+    color: #fff;
+    filter: brightness(90%);
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+    color: #fff;
+    filter: brightness(90%);
+}
+.btn.btn-dark {
+    color: #ffffff;
+    background-color: #000000;
+}
+    .btn.btn-default:hover,
+    .btn.btn-default:focus {
+    filter: brightness(90%);
+} */
+
+/* logo */
+
+
+
+/* footer */
+.footer{
+    position: absolute;
+    
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+}
+.footer-text{
+    font-size: 20px;
+}
+
+
+@media (min-width: 400px) {
+    .box {
+        width: 85%;
+        padding: 0;
+    }
+}
+  /* For devices larger than 550px */
+@media (min-width: 550px) {
+    .box {
+        width: 80%;
+    }
+    .column,
+    .columns {
+        margin-left: 0;
+    }
+    .column:first-child,
+    .columns:first-child {
+        margin-left: 0;
+    }
+}
