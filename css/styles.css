@@ -130,7 +130,7 @@ p{
   .right-half {
     /* background-color: #b6701e; */
     position: absolute;
-    left: 55%;
+    left: 50%;
     width: 50%;
     top: 64%; 
   }
@@ -180,3 +180,31 @@ color: black;
         margin-left: 0;
     }
 }
+
+@media (max-width: 600px) {
+    #navbar {
+      padding: 0rem 1rem;
+      justify-content: center;
+    }
+  
+    #projects .projects {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    main .container p {
+      margin-bottom: 1.5rem;
+    }
+  
+    main .container .btn>div a {
+      display: block;
+      margin: 1rem 1.5rem;
+    }
+  
+    #main-footer .container {
+      flex-direction: column;
+    }
+  
+    #main-footer #creator {
+      margin-top: 1rem;
+    }
+  }
