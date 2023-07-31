@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-html {
-    font-size: 62.5%;
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* width: 600px; */
-}
 
 * {
     margin: 0;
@@ -14,24 +8,61 @@ html {
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background: #dfe6e9;
-    color: #1b4354;
-    justify-content: center;
-    height: 100vh;
+    background-color: #dfe6e9;
+    border: none;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 18px;
     margin: 0;
-}
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .btn {
+    background: #333;
+  }
+  
+  .btn:hover {
+    background-color: #23a38b;
+  }
+    
+  .header-inner {
+    position: relative;
+    text-align: center;
+  }
+  
+  .site-title {
+    font-size: 2.25em;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.25);
+  }
+  
+  .site-title a {
+    color: #3c631c;
+  }
+  
+  .site-title a:hover {
+    color: #13c4a5;
+  }
+  
+  .site-description {
+    color: #332525;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 110%;
+    margin: 20px 0 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+  }
 
 
-/* current time and date */
-
-.container {
-	width: 260px;
-	margin-left: auto;
-    margin-right: auto;
-
-}
-
+/* time and date */
 .display-date {
     text-align: center;
     margin-bottom: 10px;
@@ -55,88 +86,74 @@ p{
     font-size: larger;
 }
 
-/* links */
-.box {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
+  
+  /* left and right */
+  section {
+    color: #fff;
     text-align: center;
-    margin: 0 auto;
-    /* padding: 0 20px; */
-    box-sizing: border-box;
-    
-}
-.box-left {
-    position: relative;
+  }
+  
+  /* div {
+    height: 100%;
+  } */
+  
+  article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
-    max-width: 600px;
-    text-align: left;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
-}
-.column {
-    position: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+    margin: 0 0 0.75rem 0;
+  }
+  
+  /* Pattern styles */
+  .container {
+    display: table;
     width: 100%;
-    float: center;
-    box-sizing: border-box;
-}
-
-/* button */
-.button,
-button, .btn {
     
-    /* display: inline-block; */
-    /* text-decoration: none; */
-    /* height: 100%; */
-    /* text-align: center; */
-    /* vertical-align: middle; */
-    font-size: 15px;
-    width: 280px;
-    /* font-weight: 700; */
-    /* line-height: 20px; */
-    /* padding: 15px 15px 15px 15px; */
-    letter-spacing: 0.1px;
-    /* white-space: wrap; */
-    /* outline: none; */
-    border-radius: 8px;
-    /* cursor: pointer; */
-}     
-/* button:hover,
-.btn:focus {
-    color: #212121;
-    border-color: #888;
-    outline: #000000 solid 3px
-}
-.btn.btn-primary {
-    color: #fff;
-    filter: brightness(90%);
-}
-.btn.btn-primary:hover,
-.btn.btn-primary:focus {
-    color: #fff;
-    filter: brightness(90%);
-}
-.btn.btn-dark {
-    color: #ffffff;
-    background-color: #000000;
-}
-    .btn.btn-default:hover,
-    .btn.btn-default:focus {
-    filter: brightness(90%);
-} */
-
-/* logo */
-
+    /* max-width: 600px; */
+  }
+  
+  .left-half {
+    /* background-color: #ff9e2c; */
+    position: absolute;
+    left: 27.5%;
+    width: 50%;
+    top: 64%;
+  }
+  
+  .right-half {
+    /* background-color: #b6701e; */
+    position: absolute;
+    left: 55%;
+    width: 50%;
+    top: 64%; 
+  }
 
 
 /* footer */
 .footer{
     position: absolute;
-    
-    margin: 10px;
+    bottom: -0%;
+    /* margin: 10px; */
     width: 100%;
     text-align: center;
+}
+Section .copy{
+margin-bottom: -50%;
+color: #332525;
+font-size: 1.1em;
+font-weight: 400;
+line-height: 110%;
+margin: 20px 0 ;
+text-align: center;
+color: black;
+/* text-shadow: 1px 1px 1px rgba(0,0,0,.25); */
 }
 .footer-text{
     font-size: 20px;

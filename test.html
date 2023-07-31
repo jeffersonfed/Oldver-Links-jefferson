@@ -12,63 +12,63 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     <style>
-        @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-
-html {
-    font-size: 20px;
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* width: 600px; */
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background: #dfe6e9;
-    color: #1b4354;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+  background-color: #1d1d1d;
+  border: none;
+  color: #444;
+  font-family: "Roboto",sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
-
-/* current time and date */
-
-.container {
-	/* width: 260px; */
-	margin-left: auto;
-    margin-right: auto;
-
+.container{
+    align-items: center;
 }
-        .box {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    text-align: center;
-    margin: 0 auto;
-    /* padding: 0 20px; */
-    box-sizing: border-box;
-    
+
+a:hover {
+  text-decoration: none;
 }
-.box-left {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    text-align: left;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
+
+.btn {
+  background: #333;
 }
-.column {
-    position: center;
-    width: 100%;
-    float: center;
-    box-sizing: border-box;
+
+.btn:hover {
+  background-color: #13c4a5;
+}
+  
+.header-inner {
+  position: relative;
+  text-align: center;
+}
+
+.site-title {
+  font-size: 2.25em;
+  font-family: "Roboto Slab",serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.25);
+}
+
+.site-title a {
+  color: #fff;
+}
+
+.site-title a:hover {
+  color: #13c4a5;
+}
+
+.site-description {
+  color: #999;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 110%;
+  margin: 20px 0 0;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.25);
 }
     </style>
 
@@ -79,27 +79,46 @@ body {
     <!-- place navbar here -->
   </header>
   <main>
-    <div class="box">
-        <div class="row">
-            <div class="column">
-                <div class="row">
-                    <div class="col-md-4">.col-md-4</div>
-                    <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
-                    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
-                  </div>
+    <div class="header-inner section-inner my-5">
+        <h1 class="site-title">
+          <a href="https://links-jefferson.vercel.app" rel="home">
+            <img src="https://avatars.githubusercontent.com/u/132354045?v=4" width="10%" height="10%" class="rounded-circle mx-auto d-block mb-3 img-thumbnail" />
+            Jefferson
+          </a>
+        </h1>
+        <p class="site-description">Independent Student focused on Web Development</p>
+      </div>
+      <div class="container">
+
+        <div class="row mb-4" >
+          <div class="col-6">
+            <div class="row text-center">
+                    <a class="btn btn-dark col-8 mr-3 py-3" href="https://github.com/jeffersonfed" target="_blank" role="button">
+                        <i class="fab fa-github"></i> Github
+                    </a>
+                </div>
             </div>
+          </div>
+
+
+        <div class="row mb-4">
+          <div class="col-6">
+            <div class="row ">
+              <a class="btn btn-dark col-8 ml-3 py-3" href="https://linkedin.com/in/ritch-johan-jefferson-613175224/" target="_blank" role="button">
+                <i class="fab fa-linkedin"></i> Linkedin
+              </a>
+            </div>
+          </div>
         </div>
-    </div>
+        </div>
+
+      </div>
   </main>
   <footer>
     <!-- place footer here -->
   </footer>
+  <script src="https://kit.fontawesome.com/2469147a73.js" crossorigin="anonymous"></script>
+
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
