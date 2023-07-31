@@ -211,4 +211,9 @@ color: black;
     #main-footer #creator {
       margin-top: 1rem;
     }
+    .site-title a img{
+        width: 100%;
+        max-width: 100px;
+        height: auto;
+    }
   }
