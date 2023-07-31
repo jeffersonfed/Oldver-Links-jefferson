@@ -16,6 +16,9 @@ body {
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   a:hover {
     text-decoration: none;
@@ -146,6 +149,7 @@ p{
     /* margin: 10px; */
     width: 100%;
     text-align: center;
+    margin-top: auto;
 }
 Section .copy{
 margin-bottom: -50%;
