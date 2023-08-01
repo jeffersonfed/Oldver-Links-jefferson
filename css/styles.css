@@ -425,4 +425,22 @@ color: black;
     height: auto;
 }
 }
+@media screen and (max-width: 400px) {
+  body {
+     padding: 170px 0 0 0;
+     width: 100%
+  }
+  .header-inner{
+     margin-top: -20%;
+  }
+  .site-title a img{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+.menu{
+  width: 20px;
+  height: 20px;
+}
+}
 
