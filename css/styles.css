@@ -341,14 +341,14 @@ a {
    text-shadow: none;
 }
 
-.lightblue {
-   background-color: #62C2E4;
+.red {
+   background-color: #E1306C;
    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
-.lightblue:hover {
-   color: #62C2E4;
+.red:hover {
+   color: #E1306C;
    text-shadow: none;
 }
 
