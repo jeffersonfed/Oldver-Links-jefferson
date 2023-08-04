@@ -1,11 +1,11 @@
-html, .header-inner, body, header{
-  background-color: #ffffff;
+html, .header-inner, body, header, head{
+  background-color: #212121;
 }
 
 body {
   padding: 0;
   margin: 0;
-  color: #EEEEEE;
+  color: #dfe6e9;
   text-align: center;
   font-family: "Lato", sans-serif;
 }
@@ -46,7 +46,7 @@ a:hover {
 }
 
 .site-title a {
-  color: #3c631c;
+  color: #dfe6e9;
 }
 .site-title a img {
   width: 100%;
@@ -58,7 +58,7 @@ a:hover {
 }
 
 .site-description {
-  color: #332525;
+  color: #dfe6e9;
   font-size: 1.1em;
   font-weight: 400;
   line-height: 110%;
@@ -83,7 +83,7 @@ a {
    height: 80px;
    margin-left: -40px;
    position: absolute;
-   color: #FFFFFF;
+   color: #dfe6e9;
    text-align: center;
    line-height: 80px;
    -webkit-transform: translate3d(0, 0, 0);
@@ -101,7 +101,7 @@ a {
 .lines {
    width: 25px;
    height: 3px;
-   background: #ffffff;
+   background: #dfe6e9;
      outline-color: #000000;
      outline-style: outset;
      outline-width: 1px;
@@ -167,7 +167,7 @@ a {
 } */
 
 .menu-item:hover {
-   background: #EEEEEE;
+   background: #dfe6e9;
    color: #3290B1;
 }
 
@@ -356,7 +356,7 @@ a {
 .credit {
    margin: 24px 20px 120px 0;
    text-align: right;
-   color: #EEEEEE;
+   color: #dfe6e9;
 }
 
 .credit a {
@@ -387,7 +387,7 @@ font-weight: 400;
 line-height: 110%;
 margin: 20px 0 ;
 text-align: center;
-color: black;
+color: #dfe6e9;
 /* text-shadow: 1px 1px 1px rgba(0,0,0,.25); */
 }
 .footer-text{
