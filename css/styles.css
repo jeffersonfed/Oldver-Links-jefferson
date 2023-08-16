@@ -66,6 +66,13 @@ a:hover {
   text-align: center;
   text-shadow: 1px 1px 1px rgba(0,0,0,.25);
 }
+.site-description .portfolio{
+   color: #dfe6e9;
+}
+.site-description .portfolio:hover{
+   color: #13c4a5;
+}
+
 
 
 
@@ -329,6 +336,17 @@ a {
    color: #43484b;
    text-shadow: none;
 }
+.blue2 {
+   background-color: #1da1f2;
+   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.blue2:hover {
+   color: #1da1f2;
+   text-shadow: none;
+}
+
 
 .orange {
    background-color: #FA6F1B;
