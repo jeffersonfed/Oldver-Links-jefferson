@@ -73,6 +73,7 @@ a:hover {
    color: #dfe6e9;
    line-height: 1.6;
 }
+.site-description .resume:hover,
 .site-description .portfolio:hover{
    color: #13c4a5;
 }
