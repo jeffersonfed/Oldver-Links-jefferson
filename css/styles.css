@@ -1,4 +1,4 @@
-html, .header-inner, body, header, head{
+html, .header-inner, body, header, head, .wrap{
   background-color: #212121;
 }
 
@@ -6,7 +6,9 @@ body {
   padding: 0;
   margin: 0;
   color: #dfe6e9;
+  /* background-color: #212121; */
   text-align: center;
+
   font-family: "Lato", sans-serif;
 }
 
@@ -14,6 +16,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 
