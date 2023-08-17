@@ -71,6 +71,7 @@ a:hover {
 }
 .site-description .portfolio{
    color: #dfe6e9;
+   line-height: 1.6;
 }
 .site-description .portfolio:hover{
    color: #13c4a5;
