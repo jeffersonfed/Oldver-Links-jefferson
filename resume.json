@@ -59,94 +59,6 @@
     }
   ],
   
-  "education": [
-    {
-      "institution": "Institute Computer Japan",
-      "area": "Web Development",
-      "studyType": "Diploma",
-      "startDate": "2021-03-01",
-      "endDate": "2023-04-01",
-      "courses": [
-        "Web System - Javascript, PHP, Python, Java, C#, ",
-        "Web Design - HTML, CSS, Jquery, API,",
-        "Database -MySQL"
-      ]
-    }
-  ],
-  "skills": [
-    {
-      "name": "Front End Development",
-      "keywords": [
-        "HTML5",
-        "CSS3",
-        "Javascript",
-        "Tailwind CSS",
-        "Bootstrap",
-        "React.JS / Next.js",
-        "APIs"
-      ]
-    }
-  ],
-  { 
-  "meta": { 
-    "theme": "flat" 
-  },
-  "basics": {
-    "name": "Ritch Johan Jefferson",
-    "label": "Self-Taught Developer",
-    "image": "",
-    "email": "stupidjeff430@gmail.com",
-    "website": "https://jeffersonrj.vercel.app",
-    "url": "https://jeffersonrj.vercel.app",
-    "summary": "I'm from Indonesia, a self-taught developer currently focused on learning frameworks.",
-    "location": {
-      "city": "Jakarta",
-      "countryCode": "id"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "jeffersonfed14",
-        "url": "https://twitter.com/jeffersonfed14"
-      },
-      {
-        "network": "Github",
-        "username": "jeffersonfed",
-        "url": "https://github.com/jeffersonfed"
-      },
-      {
-        "network": "Linkedin",
-        "username": "jeffersonfed",
-        "url": "https://www.linkedin.com/in/jeffersonfed"
-      },
-      {
-        "network": "Keybase",
-        "username": "jeffersonfed",
-        "url": "https://keybase.io/jeffersonfed"
-      }
-    ]
-  },
-  
-   "work": [
-    {
-      "company": "Freepik",
-      "position": "Contributor",
-      "website": "https://www.freepik.com/author/jefferson14",
-      "startDate": "2023-05-30",
-      "summary": "Generating AI images using Python, C++, and Java",
-      "highlights": []
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Machine Learning / Artificial Intelligence Bot",
-      "position": "Moderator",
-      "website": "",
-      "startDate": "2023-01-01",
-      "summary": "Undisclosed Community",
-      "highlights": []
-    }
-  ],
   "certificates": [
     {
       "name": "Responsive Web Design",
@@ -183,6 +95,7 @@
       ]
     }
   ],
+  
   "languages": [
     {
       "language": "Indonesian",
@@ -196,6 +109,18 @@
       "language": "Japanese",
       "fluency": "3 - Limited working proficiency"
     }
-  ]
+  ],
+  "projects": [
+     {
+      "name": "Portfolio Project",
+      "startDate": "2023-07-25",
+      "endDate": "2023-08-16",
+      "summary": "Personal Portfolio",
+      "highlights": [
+        "showcase all of my work and other fun projects that I have accomplished."
+      ],
+      "url": "https://jeffersonrj.vercel.app"
+    }
+   ]
   
 }
