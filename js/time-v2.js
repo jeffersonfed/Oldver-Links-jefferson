@@ -355,7 +355,7 @@ let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct
 
 
 function inputText(country,i) {
-    let region = new Date().toLocaleString({ timeZone: tz[i] });
+    let region = new Date().toLocaleString('en-US', { timeZone: tz[i] });
     region = new Date(region);
     y = region.getFullYear();
     m = months[region.getMonth()];
