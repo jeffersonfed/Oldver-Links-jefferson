@@ -1,6 +1,6 @@
 let country = document.getElementsByClassName('country');
 let timezone = [
-    'Europe/Andorra',
+  'Europe/Andorra',
   'Asia/Dubai',
   'Asia/Kabul',
   'Europe/Tirane',
