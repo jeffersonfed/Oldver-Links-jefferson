@@ -169,6 +169,7 @@ let tz = [
   'America/Jamaica',
   'Asia/Amman',
   'Asia/Tokyo',
+  'Asia/Osaka',
   'Africa/Nairobi',
   'Asia/Bishkek',
   'Pacific/Tarawa',
