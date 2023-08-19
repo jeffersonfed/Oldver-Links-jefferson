@@ -372,7 +372,7 @@ function inputText(country,i) {
     countryTime.innerText = h +":"+ mn +":"+ s;
 }
 function timezone() {
-    for (let i = 0; i < tz.length; i++) {
+    for (let i = 0; i < timezone.length; i++) {
         inputText(country[i],i);
     }
 }
