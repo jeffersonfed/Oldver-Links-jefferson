@@ -1,5 +1,5 @@
 let country = document.getElementsByClassName('country');
-let timezone = [
+let tz = [
   'Europe/Andorra',
   'Asia/Dubai',
   'Asia/Kabul',
@@ -354,7 +354,7 @@ let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct
 
 
 function inputText(country,i) {
-    let region = new Date().toLocaleString('en-US', { timeZone: timezone[i] });
+    let region = new Date().toLocaleString('en-US', { timeZone: tz[i] });
     region = new Date(region);
     y = region.getFullYear();
     m = months[region.getMonth()];
@@ -372,7 +372,7 @@ function inputText(country,i) {
     countryTime.innerText = h +":"+ mn +":"+ s;
 }
 function timezone() {
-    for (let i = 0; i < timezone.length; i++) {
+    for (let i = 0; i < tz.length; i++) {
         inputText(country[i],i);
     }
 }
