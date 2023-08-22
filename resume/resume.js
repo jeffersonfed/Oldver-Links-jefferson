@@ -35,13 +35,13 @@ const resume = {
       }
     ],
     skills: [
-      'HTML',
-      'CSS',
-      'Tailwind CSS',
-      'Bootstrap',
+      'HTML5',
+      'CSS3',
       'Javascript',
-      'Python',
-      'ReactJS'
+      'Astro',
+      'Bootstrap',
+      'ReactJS',
+      'Tailwind CSS',
     //   'ReactJS',
     //   'Nextjs',
     //   'React Native',
