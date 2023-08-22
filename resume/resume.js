@@ -59,11 +59,11 @@ const resume = {
         jobTitle: 'Freepik Contributor',
         startDate: 'May 2023',
         endDate: 'Present',
-        employer: 'Freelance',
-        city: 'Part-Time',
+        employer: 'Individual Contributor |',
+        city: 'Freelance',
         achievements: [
-  'Creating a Mockup and Self-hosted stable diffusion using Python, C++ and Java to generate AI images and upload the images to Freepik contributor site.',
-          'Total Assets: 300+ images/design.',
+  'Creating a Self-hosted stable diffusion using Python, C++ and Java to generate AI images and upload the images to Freepik contributor site.',
+          'Total Assets: 300+ images.',
           
         ]
       }
