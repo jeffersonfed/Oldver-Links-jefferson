@@ -12,7 +12,7 @@ const resume = {
       {
         school: 'Institute computer japan',
         degree: 'Diploma',
-        graduationDate: 'April 2023',
+        graduationDate: 'March 2023',
         description: 'Web Development'
       }
     ],
