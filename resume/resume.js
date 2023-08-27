@@ -27,12 +27,12 @@ const resume = {
       },
       {
         label: 'My Portfolio',
-        link: 'https://jeffersonrj.vercel.app'
-      },
-      {
-        label: 'My Project',
-        link: 'https://jeffersonrj.vercel.app/projects.html'
+        link: 'https://jeffersonfed.github.io'
       }
+      // {
+      //   label: 'Social Links',
+      //   link: 'https://links-jefferson.vercel.app'
+      // }
     ],
     skills: [
       'HTML5',
@@ -42,6 +42,8 @@ const resume = {
       'Bootstrap',
       'ReactJS',
       'Tailwind CSS',
+      'Git/Github',
+      'APIs'
     //   'ReactJS',
     //   'Nextjs',
     //   'React Native',
@@ -70,7 +72,7 @@ const resume = {
       
     ],
     
-    photo: 'https://media.licdn.com/dms/image/D5603AQFutc85aeSQMw/profile-displayphoto-shrink_400_400/0/1684853567734?e=1697673600&v=beta&t=mJnmIohB-wffHg1_4jS4o4SjDwqG_B05iFGCOYWALnU',
+    photo: 'https://media.licdn.com/dms/image/D5603AQFXRiQlgP77Yw/profile-displayphoto-shrink_400_400/0/1692771975135?e=1698883200&v=beta&t=jxj4P4lAmThTlmkTDDH9DU1mhqcQshNQJjlvly1o8N8',
   }
   
   const formatResume = (r) => ({
