@@ -18,8 +18,8 @@ const resume = {
     ],
     links: [
       {
-        label: 'GitHub',
-        link: 'https://github.com/jeffersonfed'
+        label: 'Social Links',
+        link: 'https://links-jefferson.vercel.app'
       },
       {
         label: 'LinkedIn',
@@ -34,26 +34,26 @@ const resume = {
       //   link: 'https://links-jefferson.vercel.app'
       // }
     ],
-    skills: [
-      'HTML5',
-      'CSS3',
-      'Javascript',
-      'Astro',
-      'Bootstrap',
-      'ReactJS',
-      'Tailwind CSS',
-      'Git/Github',
-      'APIs'
-    //   'ReactJS',
-    //   'Nextjs',
-    //   'React Native',
-    //   'Graphql',
-    //   'Docker',
-    //   'Kubernetes',
-    //   'AWS',
-    //   'PostgreSQL',
-    //   'MongoDB'
-    ],
+    // skills: [
+    //   'HTML5',
+    //   'HTML5',
+    //   'Javascript',
+    //   'Astro',
+    //   // 'Bootstrap',
+    //   // 'ReactJS',
+    //   // 'Tailwind CSS',
+    //   'Git/Github',
+    //   // 'APIs'
+    // //   'ReactJS',
+    // //   'Nextjs',
+    // //   'React Native',
+    // //   'Graphql',
+    // //   'Docker',
+    // //   'Kubernetes',
+    // //   'AWS',
+    // //   'PostgreSQL',
+    // //   'MongoDB'
+    // ],
     languages: ['English', 'Indonesia', 'Japanese'],
     professionalSummary: `As an independent web development student, I'm continuously learning through structured roadmaps from roadmap.sh and courses on Coursera, Udemy, Hackerrank, edX, freeCodeCamp, Codecademy, and Skillup. Seeking job experience to complement my studies and grow professionally.`,
     employmentHistory: [
