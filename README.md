@@ -1,3 +1,8 @@
-# [Links-jefferson](https://github.com/jeffersonfed/Links-jefferson)
+# Social Link Flower
 
-https://links-jefferson.vercel.app
+<img src="./assets/screenshot1.png">
+<img src="./assets/screenshot2.png">
+
+# License
+
+[MIT License](./LICENSE)
